@@ -1,0 +1,21 @@
+[package]
+name = "html-parser-rs"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["Md Mahi Kaishar <mahikaishar@gmail.com"]
+description = "A Rust crate for parsing HTML documents. It supports reading HTML documents in an event-based fashion."
+repository = "https://github.com/mdmahikaishar/html-parser-rs"
+keywords = ["web", "html", "parser", "parsing", "reader"]
+categories = ["parser", "parser-implementations"]
+license = "MIT"
+readme = "README.md"
+include = ["src/**", "README.md"]
+
+[lib]
+name = "html_parser_rs"
+path = "src/lib.rs"
+
+[[example]]
+name = "main"
+path = "examples/main.rs"
